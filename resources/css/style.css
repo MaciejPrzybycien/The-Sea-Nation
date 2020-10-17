@@ -16,3 +16,29 @@ html {
 	max-width: 1140px;
 	margin: 0 auto;
 }
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/air-bubbles-230014_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	
+}
+.main-quote-box {
+	position: absolute;
+	width: 1140;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+q {
+	color:#fff;
+	font-size: 150%;
+	font-weight: 200;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+}
+.quote-author {
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 110%;
+}
